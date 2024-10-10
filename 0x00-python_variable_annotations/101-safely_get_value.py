@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+"""Safely get the value"""
 from typing import TypeVar, Mapping, Any, Union
 
 T = TypeVar('T')  # A generic type variable for values

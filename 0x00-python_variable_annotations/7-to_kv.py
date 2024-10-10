@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Convert a float to a string"""
 
 from typing import Union, Tuple
 

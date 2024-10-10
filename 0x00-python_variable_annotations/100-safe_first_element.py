@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Type-annotated function safe_first_element"""
+
 from typing import Any, Sequence, Optional
 # The types of the elements of the input are not know
 
