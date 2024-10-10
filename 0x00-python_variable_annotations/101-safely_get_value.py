@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Adding type annotations to function"""
 
-
 from typing import Mapping, Any, TypeVar, Union
 
 T = TypeVar('T')
