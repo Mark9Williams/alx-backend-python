@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Zoom an array"""
+"""Validated a piece of code and applied modifications"""
+
 from typing import List, Tuple
 
 

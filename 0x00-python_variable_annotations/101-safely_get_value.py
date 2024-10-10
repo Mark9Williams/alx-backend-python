@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Safely get the value"""
+"""Adding type annotations to function"""
 
 from typing import TypeVar, Mapping, Any, Union
 

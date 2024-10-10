@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Element length"""
+"""annotating parameters and return values with the appropriate types"""
 
 from typing import List, Tuple, Any
 
