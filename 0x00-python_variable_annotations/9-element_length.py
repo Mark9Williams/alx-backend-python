@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""annotating parameters and return values with the appropriate types"""
-
 from typing import List, Tuple, Any
 
 
