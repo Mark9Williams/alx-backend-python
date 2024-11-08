@@ -62,14 +62,14 @@ class TestGetJson(unittest.TestCase):
 class TestMemoize(unittest.TestCase):
     """ A memoization class """
 
-    def test_memoize(self):
+    def test_memoize(self) -> None:
         """ Test memoize decorator on a_property"""
         class TestClass:
-            def a_method(self):
+            def a_method(self) -> int:
                 return 42
 
             @memoize
-            def a_property(self):
+            def a_property(self) -> int:
                 """ Method that returns a_method """
                 return self.a_method()
 
@@ -89,7 +89,3 @@ class TestMemoize(unittest.TestCase):
 
             # Ensure a_method was called only once
             mock_method.assert_called_once()
-
-
-if __name__ == "__main__":
-    unittest.main()
