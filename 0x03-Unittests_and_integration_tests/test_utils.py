@@ -59,7 +59,7 @@ class TestGetJson(unittest.TestCase):
             self.assertEqual(result, test_payload)
 
 
-class TestMemoize(Unittest.TestCase):
+class TestMemoize(unittest.TestCase):
     """ A memoization class """
 
     def test_memoize(self):
@@ -89,3 +89,7 @@ class TestMemoize(Unittest.TestCase):
 
             # Ensure a_method was called only once
             mock_method.assert_called_once()
+
+
+if __name__ == "__main__":
+    unittest.main()
