@@ -62,18 +62,19 @@ class TestGetJson(unittest.TestCase):
 class TestMemoize(Unittest.TestCase):
     """ A memoization class """
 
-    def test_memoize()
-    """ Test memoize decorator on a_property"""
-       class TestClass:
-        def a_method(self):
+    def test_memoize(self):
+        """ Test memoize decorator on a_property"""
+        class TestClass:
+            def a_method(self):
                 return 42
 
             @memoize
             def a_property(self):
+                """ Method that returns a_method """
                 return self.a_method()
 
         # Instantiate TestClass
-       test_instance = TestClass()
+        test_instance = TestClass()
 
         # Patch a_method so we can monitor its calls
         with patch.object(test_instance, 'a_method',
